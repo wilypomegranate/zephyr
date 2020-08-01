@@ -105,4 +105,84 @@
  * See Section 3.2 of datasheet.
  */
 
+#define W5500_SOCK_MODE 0x0000
+
+#define W5500_SOCK_CR 0x0001
+
+#define W5500_SOCK_IR 0x0002
+
+#define W5500_SOCK_SR 0x0003
+
+/* Source Port */
+#define W5500_SOCK_PORT0 0x0004
+#define W5500_SOCK_PORT1 0x0005
+
+/* Destination MAC Address */
+#define W5500_SOCK_DHAR0 0x0006
+#define W5500_SOCK_DHAR1 0x0007
+#define W5500_SOCK_DHAR2 0x0008
+#define W5500_SOCK_DHAR3 0x0009
+#define W5500_SOCK_DHAR4 0x000A
+#define W5500_SOCK_DHAR5 0x000B
+
+/* Destination IP Address */
+#define W5500_SOCK_DIPR0 0x000C
+#define W5500_SOCK_DIPR1 0x000D
+#define W5500_SOCK_DIPR2 0x000E
+#define W5500_SOCK_DIPR3 0x000F
+
+/* Destination Port */
+#define W5500_SOCK_DPORT0 0x0010
+#define W5500_SOCK_DPORT1 0x0011
+
+/* Maximum Segment Size  */
+#define W5500_SOCK_MSSR0 0x0012
+#define W5500_SOCK_MSSR1 0x0013
+
+/* IP TOS */
+#define W5500_SOCK_TOS 0x0015
+
+/* IP TTL */
+#define W5500_SOCK_TTL 0x0016
+
+/* Receive Buffer Size */
+#define W5500_SOCK_RXBUF_SIZE 0x001E
+
+/* Transmit Buffer Size */
+#define W5500_SOCK_TXBUF_SIZE 0x001F
+
+/*  Socket TX Free Size */
+#define W5500_SOCK_TX_FSR0 0x0020
+#define W5500_SOCK_TX_FSR1 0x0021
+
+/*  Socket TX Read Pointer */
+#define W5500_SOCK_TX_RD0 0x0022
+#define W5500_SOCK_TX_RD1 0x0023
+
+/*  Socket TX Write Pointer */
+#define W5500_SOCK_TX_WR0 0x0024
+#define W5500_SOCK_TX_WR1 0x0025
+
+/*  Socket RX Received Size */
+#define W5500_SOCK_RX_RSR0 0x0026
+#define W5500_SOCK_RX_RSR1 0x0027
+
+/*  Socket RX Read Pointer */
+#define W5500_SOCK_RX_RD0 0x0028
+#define W5500_SOCK_RX_RD1 0x0029
+
+/*  Socket RX Write Pointer */
+#define W5500_SOCK_RX_WR0 0x002A
+#define W5500_SOCK_RX_WR1 0x002B
+
+/* Socket Interrupt Mask */
+#define W5500_SOCK_IMR 0x002C
+
+/* Socket Fragment IP Header Offset */
+#define W5500_SOCK_FRAG0 0x002D
+#define W5500_SOCK_FRAG1 0x002E
+
+/*  Keep-Alive Timer */
+#define W5500_SOCK_KPALVTR 0x002F
+
 #endif
